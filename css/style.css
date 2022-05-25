@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Roboto+Slab:wght@900&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.header{
+    text-align: center;
+    font-family: 'Koulen', cursive;
+    padding: 2rem 0rem;
+    background: url(/images/nube.jpg);
+    font-size: 1.5rem;
+}
+
+.cajon{
+    text-align: center;
+}
+
+.cuadro{
+    display: flex;
+}
+
+button{
+    width: 8rem;
+    text-align: center;
+    background-color: #ffff00;
+    border-radius: 1rem;
+    font-family: 'Koulen', cursive;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #00e9f1;
+    height: 2rem;
+}
+
+.container-character{
+    height: auto;
+    border-radius: 1rem;
+    font-family: 'Koulen', cursive;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cards{
+    border: 5px #06506d solid;
+    width: 16rem;
+    box-shadow: #9dedf6 6px 6px 6px 6px;
+    margin: 2rem;
+}
+
+.cards img{
+    height: 20rem;
+}
